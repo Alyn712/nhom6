@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charsel="UTF-8">
+    <meta http-eqiuv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <h1>BẢNG ĐĂNG KÝ</h1>
+    <from action="/Bảng thông báo.html">
+        <label for="holot">Họ lót:</label><br>
+        <input type="text" name="holot"><br>
+        <label for="name">Tên:</label><br>
+        <input type="text" name="name"><br>
+    </from>
+    <br>
+    <from action="/Bảng thông báo.html">
+        <fieldset>
+        <legend>Giới tính</legend>
+            <input type="radio" name="sex" value="Male">
+            <label for="male">Nam</label><br>
+            <input type="radio" name="sex" value="Female">
+            <label for="female">Nữ</label><br>
+        </fieldset>
+    </from>
+    <br>
+    <from action="/Bảng thông báo.html">
+        Năm sinh:<br>
+        <select name="ybrith" id="ybrith">
+            <option value="Ybrith"></option>
+        </select><br>
+        Email:<br>
+        <input type="text" name="email"><br>
+        <input type="submit" value="Reset"><br>
+        <br>
+        <label for="dieukhoan">Điều khoản:</label><br>
+        <br>
+        <textarea name="dieukhoan" cols="40" rows="10"></textarea><br>
+        <br>
+        <p>
+            <input type="checkbox">
+            <label for="checkbox"><b>Tôi đã đọc và đồng ý</b></label>
+        </p>
+        <p>
+            <input type="submit" value="Đăng ký" onclick="alert('Bạn đã đăng ký thành công')">
+        </p>
+    </from>
+</body>
+</html>
